@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="400.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mycalculator.CalculatorController">
+   <children>
+      <VBox layoutX="169.0" layoutY="56.0" prefHeight="650.0" prefWidth="400.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="show" prefHeight="30.0" prefWidth="400.0" style="-fx-background-color: #f2f2f2;" />
+            <Label fx:id="textField" prefHeight="120.0" prefWidth="400.0" style="-fx-border-color: #f2f2f2;">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="500.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #f2f2f2;" text="c" textFill="#0061bd">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="7">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="110.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="4">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="210.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="1">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="310.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="\%">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #f2f2f2;" text="/" textFill="#0061bd">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="8">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="110.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="5">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="210.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="2">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="310.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="0">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #f2f2f2;" text="*" textFill="#0061bd">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="9">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="110.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="6">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="210.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text="3">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="310.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" text=".">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #f2f2f2;" text="b" textFill="#0061bd">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #f2f2f2;" text="-" textFill="#0061bd">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="110.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #f2f2f2;" text="+" textFill="#0061bd">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="210.0" mnemonicParsing="false" onAction="#clickOnButton" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #0061bd;" text="=" textFill="WHITE">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
